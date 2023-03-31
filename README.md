@@ -44,8 +44,8 @@ import numpy as py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df=pd.read_csv('FlightInformation (1).csv')sns.scatterplot(df['Duration'],df['Price'],hue=df['Dep_Time'])
-df
+df=pd.read_csv('FlightInformation (1).csv')
+sns.scatterplot(df['Duration'],df['Price'],hue=df['Dep_Time'])
 df.head()
 df.info()
 df.describe()
